@@ -1,0 +1,47 @@
+@import url(http://allfont.ru/allfont.css?fonts=europe-normal);
+
+body {
+	font-family: 'Europe Normal', arial;
+	margin: 0;
+}
+body.wellcome{
+	background-image: url(file:///Users/user/GitHub/site/image/back.png);
+	background-size: 100px;
+}
+a:link,:hover,:visited{
+	text-decoration: none;
+	color: black;
+}
+
+/*Приветствие*/
+figcaption.wellcome{
+	position: absolute;
+	width: 200px;
+	height: 70px;
+	left: 50%;
+	top: 50%;
+	margin-left: -90px;
+	margin-top: -20px;
+
+}
+figcaption.wellcome a {
+	text-align: center;
+	padding: 7px 14px;
+	border-radius: 4px;
+	display: inline-block;
+	background: #66cccc;
+	color: #fff;
+}
+
+/*Заголовок*/
+header{
+	margin: 0;
+	padding: 10px;
+	text-align: center;
+}
+img.header{
+	width: 600px;
+}
+ul.header li {
+    display: inline;
+   }
