@@ -1,5 +1,23 @@
+/*Заголовок*/
+
+.container > header {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.container > header h1 {
+	font-size: 0.9em;
+	font-weight: 100;
+}
+
+header a{
+	display: inline-block;
+	padding: 25px 50px;
+}
+
 /*Приветствие*/
-figcaption.wellcome{
+
+figcaption.wellcome {
 	position: absolute;
 	width: 200px;
 	height: 70px;
@@ -9,6 +27,7 @@ figcaption.wellcome{
 	margin-top: -20px;
 
 }
+
 figcaption.wellcome a {
 	text-align: center;
 	padding: 7px 14px;
@@ -18,8 +37,10 @@ figcaption.wellcome a {
 	color: #fff;
 }
 
+/*Основная сетка*/
+
 .grid {
-	padding: 20px 20px 100px 20px;
+	padding: 20px;
 	max-width: 1300px;
 	margin: 0 auto;
 	list-style: none;
@@ -30,14 +51,20 @@ figcaption.wellcome a {
 	display: inline-block;
 	width: 300px;
 	margin: 0;
-	padding: 20px;
+	padding: 20px 20px 100px 20px;
 	text-align: left;
 	position: relative;
 }
 
+/*Превью галлереи*/
+
 .grid figure {
 	margin: 0;
 	position: relative;
+}
+
+.grid figure p {
+	position: absolute;
 }
 
 .grid figure img {
@@ -48,33 +75,46 @@ figcaption.wellcome a {
 
 .grid figcaption {
 	position: absolute;
+	text-align: center;
 	top: 0;
 	left: 0;
-	padding: 20px;
-	background: #2c3f52;
+	background: #66c4d0;
 	color: #ed4e6e;
 }
 
+/*Заголовок превью*/
+
 .grid figcaption h3 {
-	margin: 0;
+	margin-top: 35%;
 	padding: 0;
+	font-family: dincyr, 'dincyr', sans-serif;
+	font-size: 1.5em;
+	font-weight: 100;
 	color: #fff;
 }
 
-.grid figcaption span:before {
-	content: 'by ';
-}
+/*Кнопка в превью*/
 
 .grid figcaption a {
+	font-family: dincyr, 'dincyr', sans-serif;
+	font-size: 1em;
+	font-weight: 100;
 	text-align: center;
 	padding: 5px 10px;
 	border-radius: 2px;
 	display: inline-block;
-	background: #ed4e6e;
-	color: #fff;
+	background: #fff;
+	color: #66c4d0;
 }
 
-/* Caption Style 3 */
+.cs-style-3 figcaption a {
+	position: absolute;
+	left: 50%; 
+	top: 60%;
+	margin-left: -55px;
+	margin-top: -20px;
+}
+
 .cs-style-3 figure {
 	overflow: hidden;
 }
@@ -94,7 +134,7 @@ figcaption.wellcome a {
 }
 
 .cs-style-3 figcaption {
-	height: 100px;
+	height: 100%;
 	width: 100%;
 	top: auto;
 	bottom: 0;
@@ -120,12 +160,6 @@ figcaption.wellcome a {
 	transition: transform 0.4s, opacity 0.1s;
 }
 
-.cs-style-3 figcaption a {
-	position: absolute;
-	bottom: 20px;
-	right: 20px;
-}
-
 @media screen and (max-width: 31.5em) {
 	.grid {
 		padding: 10px 10px 100px 10px;
@@ -135,3 +169,19 @@ figcaption.wellcome a {
 		min-width: 300px;
 	}
 }
+
+footer {
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background: #66c4d0;
+}
+
+footer > p {
+	font-family: dincyr, 'dincyr', sans-serif;
+	font-size: 0.60em;
+	font-weight: 100;
+	color: #fff;
+}
+
