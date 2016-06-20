@@ -19,3 +19,9 @@ a:hover,
 a:active {
 	color: black;
 }
+
+body.wellcome {
+	background: url(../image/back.png);
+	background-size: 10px;
+	background-repeat: repeat;
+}
