@@ -1,0 +1,49 @@
+.left img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	float: left;
+	padding: 50px;
+	width: 940px;
+}
+
+@font-face {
+	font-family: dincyr;
+	scr: url(../fonts/DINCyrLt.ttf);
+}
+
+.right {
+	padding: 0;
+	margin: 0;
+	font-family: dincyr, 'dincyr', sans-serif;
+	font-weight: 100;
+	position: fixed;
+	left: 900px;
+	top: 25px;
+	text-align: justify;
+	text-align-last: justify;
+	width: 375px;
+}
+
+figure > h1 {
+	font-size: 3em;
+}
+
+figure > p {
+	color: #404040;
+}
+
+figcaption > a {
+	font-size: 1em;
+	font-weight: 100;
+	text-align: center;
+	padding: 5px 10px;
+	border-radius: 4px;
+	display: inline-block;
+	background: #f2f2f2;
+	color: #000;
+}
+
+a:hover {
+	color: #fff;
+}
