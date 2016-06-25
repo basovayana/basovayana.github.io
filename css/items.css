@@ -53,7 +53,7 @@ a:hover {
 	color: #fff;
 }
 
-/*Для лептопов*/
+/*Вертикальная адаптация*/
 
 @media screen and (max-width: 31.5em) {
 
@@ -99,16 +99,18 @@ a:hover {
 
 }
 
+
+/*Горизонтальная адаптация*/
+
 @media screen and (max-width: 68.750em) {
 
 /*Адаптивное изображение*/
 
 	.left > img {
 		position: relative;
-		text-align: center;
-		margin-left: 0;
-		float: left;
-		padding: 5%;
+		padding-left: 14%;
+		padding-right: 11%;
+		margin: 0;
 		max-width: 100%;
 		height: auto;
 	}
