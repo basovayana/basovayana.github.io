@@ -1,0 +1,10 @@
+.grid figure > a > img {
+	transition: 0.3s;
+	opacity: 0.5;
+	border-radius: 50%;
+}
+
+.grid figure > a:hover > img {
+	transition: 0.3s;
+	opacity: 1;
+}
