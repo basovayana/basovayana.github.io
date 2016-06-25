@@ -83,10 +83,55 @@ a:hover {
 
 	figure > h1 {
 		text-align: center;
-		font-size: 2em;
+		font-size: 1.2em;
 	}
 
 	figure > p {
+		font-size: 0.8em;
+		text-align: justify;
+		text-align-last: justify;
+	}
+
+	figcaption {
+		position: relative;
+		text-align: center;
+	}
+
+}
+
+@media screen and (max-width: 50em) {
+
+/*Адаптивное изображение*/
+
+	.left > img {
+		position: relative;
+		text-align: center;
+		margin-left: 0;
+		float: left;
+		padding: 5%;
+		max-width: 100%;
+		height: auto;
+	}
+
+/*Адаптивный блок текста*/
+
+	.right {
+		padding: 7%;
+		margin: 0;
+		font-family: dincyr, 'dincyr', sans-serif;
+		font-weight: 100;
+		position: relative;
+		text-align: center;
+		width: auto;
+	}
+
+	figure > h1 {
+		text-align: center;
+		font-size: 1.2em;
+	}
+
+	figure > p {
+		font-size: 0.8em;
 		text-align: justify;
 		text-align-last: justify;
 	}
