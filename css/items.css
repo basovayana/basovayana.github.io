@@ -1,5 +1,7 @@
 body {
+	vertical-align: middle;
 	text-align: center;
+	margin: 0 auto;
 }
 
 .left img {
@@ -101,16 +103,16 @@ a:hover {
 
 
 /*Горизонтальная адаптация*/
-
 @media screen and (max-width: 68.750em) {
 
 /*Адаптивное изображение*/
 
 	.left > img {
 		position: relative;
-		padding-left: 14%;
-		padding-right: 11%;
-		margin: 0;
+		text-align: center;
+		margin-left: 0;
+		float: left;
+		padding: 5%;
 		max-width: 100%;
 		height: auto;
 	}
@@ -118,7 +120,7 @@ a:hover {
 /*Адаптивный блок текста*/
 
 	.right {
-		padding: 7%;
+		padding: 2%;
 		margin: 0;
 		font-family: dincyr, 'dincyr', sans-serif;
 		font-weight: 100;
