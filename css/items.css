@@ -77,8 +77,7 @@ a:hover {
 		font-family: dincyr, 'dincyr', sans-serif;
 		font-weight: 100;
 		position: relative;
-		text-align: justify;
-		text-align-last: justify;
+		text-align: center;
 		width: auto;
 	}
 
