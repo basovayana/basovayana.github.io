@@ -1,7 +1,5 @@
 body {
 	vertical-align: middle;
-	text-align: center;
-	margin: 0 auto;
 }
 
 .left img {
@@ -28,7 +26,6 @@ body {
 	margin-left: 70%;
 	top: 5%;
 	text-align: justify;
-	text-align-last: justify;
 	width: 375px;
 }
 
@@ -79,12 +76,11 @@ a:hover {
 		font-family: dincyr, 'dincyr', sans-serif;
 		font-weight: 100;
 		position: relative;
-		text-align: center;
+		text-align: justify;
 		width: auto;
 	}
 
 	figure > h1 {
-		text-align: center;
 		font-size: 1.2em;
 	}
 
